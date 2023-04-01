@@ -2,25 +2,25 @@
 
 // Transitions
 $enable-reduced-motion:			true;
-$enable-transitions:			  true;
-$transition-base:           all .2s ease-in-out;
+$enable-transitions:			true;
+$transition-base:               all .2s ease-in-out;
 
 // Z-Index
-$z-index-unset:					        unset;
-$z-index-default:				        1;
-$z-index-negative-default:	    -1;
-$z-index-background:			      5;
-$z-index-middleground:			    10;
-$z-index-foreground:			      15;
+$z-index-unset:					  unset;
+$z-index-default:				  1;
+$z-index-negative-default:	      -1;
+$z-index-background:			  5;
+$z-index-middleground:			  10;
+$z-index-foreground:			  15;
 
-$z-index-overlay:				        2000;
-$z-index-navbar:				        1500;
-$z-index-footer:				        1000;
-$z-index-loader:				        1000;
-$z-index-loader-background:	    750;
+$z-index-overlay:				  2000;
+$z-index-navbar:				  1500;
+$z-index-footer:				  1000;
+$z-index-loader:				  1000;
+$z-index-loader-background:	      750;
 
 $z-index-dropdown-background:	  50;
-$z-index-dropdown-middleground:	55;
+$z-index-dropdown-middleground:	  55;
 $z-index-dropdown-foreground:	  60;
 
 // Grid
@@ -30,7 +30,7 @@ $grid-breakpoints: (
 	md: 48rem,              // 768px
 	lg: 62rem,              // 992px
 	xl: 75rem,              // 1200px
-  xxl: 87.5rem,           // 1400px
+    xxl: 87.5rem,           // 1400px
 	xxxl: 100rem            // 1600px
 ) !default;
 
@@ -55,7 +55,7 @@ $spacers: map-merge(
 	(
 		0: 0,
 		1: ($spacer),           // 16px
-    2: ($spacer * 2),       // 32px
+        2: ($spacer * 2),       // 32px
 		3: ($spacer * 3),       // 48px
 		4: ($spacer * 4),       // 64px
 		5: ($spacer * 6),       // 96px
@@ -66,9 +66,9 @@ $spacers: map-merge(
 
 // Fonts
 $font-family-sans-serif:    	'Roboto', Arial, sans-serif;
-$font-family-base:				    $font-family-sans-serif;
-$font-family-display:			    'Patrick Hand SC', cursive;
-$font-family-monospace:       'Roboto Slab', Consolas, serif;
+$font-family-base:				$font-family-sans-serif;
+$font-family-display:			'Patrick Hand SC', cursive;
+$font-family-monospace:         'Roboto Slab', Consolas, serif;
 
 $font-style-normal:				normal;
 
@@ -76,16 +76,16 @@ $font-weight-thin:				100;
 $font-weight-light:				300;
 $font-weight-base:				400;
 $font-weight-normal:			$font-weight-base;
-$font-weight-medium:      500;
-$font-weight-demi:        600;
+$font-weight-medium:            500;
+$font-weight-demi:              600;
 $font-weight-bold:				700;
 $font-weight-black:				900;
-$font-weight-icon:        $font-weight-black;
+$font-weight-icon:              $font-weight-black;
 
 $font-size-base:            	1rem;
-$font-size-base-percent:      100%;
+$font-size-base-percent:        100%;
 
-$line-height-base:            1;
+$line-height-base:              1;
 
 // Color system
 $dark-olive-green:              #4D6D03;
