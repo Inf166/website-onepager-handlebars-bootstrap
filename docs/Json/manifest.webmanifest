@@ -1,0 +1,7 @@
+{
+  "name": "Onepager",
+  "short_name": "Onepager",
+  "start_url": ".",
+  "display": "standalone",
+  "description": "Onepager PoC",
+}
