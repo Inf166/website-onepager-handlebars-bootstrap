@@ -65,10 +65,10 @@ $spacers: map-merge(
 );
 
 // Fonts
-$font-family-sans-serif:    	'Roboto', Arial, sans-serif;
+$font-family-sans-serif:    	'Open Sans', sans-serif;
 $font-family-base:				$font-family-sans-serif;
-$font-family-display:			'Patrick Hand SC', cursive;
-$font-family-monospace:         'Roboto Slab', Consolas, serif;
+$font-family-display:			$font-family-sans-serif;
+$font-family-monospace:         $font-family-sans-serif;
 
 $font-style-normal:				normal;
 
@@ -105,8 +105,8 @@ $white:                         #F6F5EF;
 $linen:                         #EEE6DD;
 
 // Theme Colors
-$primary:       				$dark-olive-green;
-$secondary:     				$orange-yellow;
+$primary: #8f41a2;
+$secondary: #d88011;
 $tertiary:      				$red-violet-color-wheel;
 
 $success:       				$citron;
