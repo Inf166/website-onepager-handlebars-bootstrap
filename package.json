@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Inf166/design-concept-sharing-recipes.git"
+    "url": "git+https://github.com/mai-space/design-concept-sharing-recipes.git"
   },
   "keywords": [
     "framework",
@@ -21,9 +21,9 @@
   "author": "Joel Maximilian Mai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Inf166/design-concept-sharing-recipes/issues"
+    "url": "https://github.com/mai-space/design-concept-sharing-recipes/issues"
   },
-  "homepage": "https://github.com/Inf166/design-concept-sharing-recipes#readme",
+  "homepage": "https://github.com/mai-space/design-concept-sharing-recipes#readme",
   "dependencies": {
     "@npmcli/fs": "^3.1.0",
     "clean-webpack-plugin": "^4.0.0",
